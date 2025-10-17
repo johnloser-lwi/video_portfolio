@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Weiqin Yang | Video Editor</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <a class="skip" href="#main" style="position:absolute;left:-9999px;top:auto;">Skip to content</a>
+
+  <!-- ===== Header / Navigation ===== -->
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <!-- <span class="logo"></span> -->
+        <a href="index.html" aria-current="page"><img class="logo" src="./assets/Logo.png" alt="Logo">Weiqin Yang - Video Editor</a>
+      </div>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html" aria-current="page">About</a></li>
+          <li><a href="./html/projects.html">Projects</a></li>
+          <li><a href="./html/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <!-- ===== Hero / Opener ===== -->
+    <section class="hero">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">About</div>
+          <h1>HI, THERE!</h1>
+          <p class="lead">I’m Weiqin, a video editor passionate about creating engaging video content through storytelling and sound.</p>
+          <p class="lead">With a background in sound design for the game industry, I bring a balance of visual and audio presentation to every project. Whether it’s a short‑form or long‑form video, my goal is to craft work that is engaging, professional, and purposeful behind every cut.</p>
+          <div class="cta">
+            <a class="btn" href="./html/projects.html">View Projects</a>
+            <a class="btn secondary" href="assets/Resume_WeiqinYang_Video Editor.pdf" download>Download Resume</a>
+          </div>
+        </div>
+        <div class="profile">
+            <img class="profile-img" src="./assets/weiqin_yang.png" alt="Weiqin Yang">
+        </div>
+        <div class="card" aria-label="Quick facts">
+          <h3>Quick Facts</h3>
+          <p class="meta">Based in Vancouver · Remote friendly</p>
+          <div class="list" aria-label="Tools">
+            <span class="chip">DaVinci Resolve</span>
+            <span class="chip">Premiere Pro</span>
+            <span class="chip">After Effects</span>
+            <span class="chip">Reaper</span>
+            <span class="chip">Pro Tools</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <footer>
+    <div class="container">
+      © <span id="y"></span> Weiqin Yang · <a href="contact.html">Get in touch</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
