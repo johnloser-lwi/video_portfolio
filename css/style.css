@@ -16,14 +16,14 @@
 
 html,
 body {
-	height: max-content;
+	height: 100%;
 }
 
 body {
 	margin: 0;
 	font-family: "Roboto", system-ui, -apple-system, Segoe UI, Arial, sans-serif;
 	color: var(--text);
-	background: radial-gradient(1200px 800px at 70% -10%, rgba(54, 70, 107, 0.25), transparent 60%), var(--base);
+	background: radial-gradient(100% 100% at 70% -10%, rgba(54, 70, 107, 0.25), transparent 60%), var(--base);
 	line-height: 1.6;
 }
 
