@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weiqin Yang | Video Editor</title>
+
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    
+  <a class="skip" href="#main" style="position:absolute;left:-9999px;top:auto;">Skip to content</a>
+
+  <!-- ===== Header / Navigation ===== -->
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <!-- <span class="logo"></span> -->
+        <a href="index.html" aria-current="page"><img class="logo" src="../assets/Logo.png" alt="Logo">Weiqin Yang - Video Editor</a>
+      </div>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="assets/Resume_WeiqinYang_Video Editor.pdf">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <h1>Contact Form</h1>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="y"></span> Weiqin Yang · <a href="contact.html">Get in touch</a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
